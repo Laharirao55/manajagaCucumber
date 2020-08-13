@@ -1,0 +1,9 @@
+
+Scenario: Agricultural Land fields validation # features/Post_Property_Validations.feature:3
+  Given Navigate to Post Free Window          # null
+
+Scenario: Sign-In Functionality with Valid Credentials # features/SignIn.feature:2
+  Given Navigate to Sign-In Page                       # null
+  When User signed in using Username and Password      # null
+  And Click on Sign-in button                          # null
+  Then User is navigated to the Home Page              # null

@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-13T12:14:20.529Z",
+        "line": 3,
+        "name": "Agricultural Land fields validation",
+        "description": "",
+        "id": "validating-post-property-fields;agricultural-land-fields-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to Post Free Window",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Post_Property fields",
+    "description": "",
+    "id": "validating-post-property-fields",
+    "keyword": "Feature",
+    "uri": "file:features/Post_Property_Validations.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-13T12:14:20.834Z",
+        "line": 2,
+        "name": "Sign-In Functionality with Valid Credentials",
+        "description": "",
+        "id": "sign-in-feature-file;sign-in-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to Sign-In Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User signed in using Username and Password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Click on Sign-in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User is navigated to the Home Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign-In Feature file",
+    "description": "",
+    "id": "sign-in-feature-file",
+    "keyword": "Feature",
+    "uri": "file:features/SignIn.feature",
+    "tags": []
+  }
+]
